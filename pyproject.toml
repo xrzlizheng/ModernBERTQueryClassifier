@@ -1,0 +1,36 @@
+[project]
+name = "fine-tunnig-post"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+
+dependencies = [
+    "torch==2.4.1",
+    "tensorboard",
+    "setuptools<71.0.0",
+    "scikit-learn",
+    "datasets==3.1.0",
+    "accelerate==1.2.1",
+    "hf-transfer==0.1.8",
+    "pip>=25.0.1",
+    "jupyter>=1.1.1",
+    "openpyxl>=3.1.5",
+    "tqdm>=4.67.1",
+    "matplotlib>=3.10.1",
+    "seaborn>=0.13.2",
+    "python-dotenv>=1.0.1",
+    "jinja2>=3.1.6",
+    "marimo>=0.11.17",
+    "langchain-core>=0.3.44",
+    "langchain-fireworks>=0.2.7",
+    "langgraph>=0.3.6",
+    "ruff>=0.9.10",
+    "ruff-lsp>=0.0.62",
+]
+
+[tool.uv]
+# This section allows configuring uv-specific options
+
+
+
